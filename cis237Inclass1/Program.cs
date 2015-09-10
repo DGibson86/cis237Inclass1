@@ -10,6 +10,9 @@ namespace cis237Inclass1
     {
         static void Main(string[] args)
         {
+            Person person = new Person("Dustin","Gibson", 29);
+
+            person.PrintFullName();
         }
     }
 }
